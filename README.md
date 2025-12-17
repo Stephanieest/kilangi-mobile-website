@@ -3,7 +3,7 @@
 A modern, elegant e-commerce website for premium gold and silver jewellery collections. Features responsive mobile-first design with interactive elements and smooth user experience.
 
 **By:** Stephanie Njonjo  
-**Live Demo:** [Link to be added]  
+**Live Demo:** https://stephanieest.github.io/kilangi-mobile-website/ 
 **GitHub Repository:** https://github.com/Stephanieest/kilangi-mobile-website  
 
 ---
