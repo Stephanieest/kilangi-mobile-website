@@ -122,7 +122,6 @@ kilangi-jewellery/
 ├── footerlogo.png          # Footer logo
 ├── screenshot.png          # Project screenshot
 ├── README.md               # This documentation
-└── (other asset files)     # Images, icons, etc.
 ```
 
 ---
@@ -172,8 +171,7 @@ The above copyright notice and this permission notice shall be included in all c
 ## Contact
 
 **Stephanie Njonjo**  
-Email: stephnjonjo@gmail.com 
-Project Link: https://github.com/Stephanieest/kilangi-mobile-website
+Email: [stephnjonjo@gmail.com](mailto:stephnjonjo@gmail.com)
 
 ---
 
