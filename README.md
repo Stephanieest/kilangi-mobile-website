@@ -1,11 +1,12 @@
-# Kilangi — Timeless Jewellery
+# Kilangi — Timeless Jewellery  
 
 A modern, elegant e-commerce website for premium gold and silver jewellery collections. Features responsive mobile-first design with interactive elements and smooth user experience.
 
 **By:** Stephanie Njonjo  
 **Live Demo:** [Link to be added]  
-**GitHub Repository:** https://github.com/Stephanieest/kilangi-mobile-website
-   ```
+**GitHub Repository:** https://github.com/Stephanieest/kilangi-mobile-website  
+
+---
 
 ## Table of Contents
 - [Overview](#overview)
@@ -20,6 +21,8 @@ A modern, elegant e-commerce website for premium gold and silver jewellery colle
 - [License](#license)
 - [Contact](#contact)
 
+---
+
 ## Overview
 
 Kilangi is a premium jewellery brand website offering customers a seamless browsing experience to explore exquisite silver and gold collections. The site features a clean, modern design with intuitive navigation and interactive elements.
@@ -31,6 +34,8 @@ Users can:
 - Explore gift options for occasions (Birthday, Anniversary, Engagement)
 - Learn about the brand's ethos and sustainable practices
 - Read customer testimonials
+
+---
 
 ## Features
 
@@ -52,11 +57,15 @@ Users can:
 7. **Brand Story** - Ethical sourcing and craftsmanship
 8. **Testimonials** - Customer reviews with ratings
 
+---
+
 ## Screenshots
 
 ![Kilangi Website Preview](./screenshot.png)
 
 *Main page showing product categories and featured items*
+
+---
 
 ## Getting Started
 
@@ -90,11 +99,6 @@ The live site allows you to:
 
 3. Open `index.html` directly in your browser, or use a local server:
 
-   **Using Python:**
-   ```bash
-   python -m http.server 8000
-   ```
-
    **Using Node.js (with http-server):**
    ```bash
    npx http-server
@@ -102,8 +106,10 @@ The live site allows you to:
 
 4. Open your browser and visit:
    ```
-   http://localhost:8000
+   http://localhost:8080
    ```
+
+---
 
 ## Project Structure
 
@@ -119,6 +125,8 @@ kilangi-jewellery/
 └── (other asset files)     # Images, icons, etc.
 ```
 
+---
+
 ## Technologies Used
 
 - **HTML5** - Semantic structure and content
@@ -127,6 +135,8 @@ kilangi-jewellery/
 - **Google Fonts** - Montserrat and Playfair Display
 - **SVG Icons** - Scalable vector graphics
 - **Mobile-First Approach** - Responsive design principles
+
+---
 
 ## Development Notes
 
@@ -143,6 +153,8 @@ Tested and working on:
 - Safari 14+
 - Edge 90+
 
+---
+
 ## License
 
 MIT License
@@ -155,14 +167,14 @@ The above copyright notice and this permission notice shall be included in all c
 
 **THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
 
+---
+
 ## Contact
 
 **Stephanie Njonjo**  
 Email: stephnjonjo@gmail.com 
-Project Link:https://github.com/Stephanieest/kilangi-mobile-website
+Project Link: https://github.com/Stephanieest/kilangi-mobile-website
+
 ---
 
 **Made with ❤️ for jewellery lovers worldwide**
-
----
-
