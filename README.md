@@ -1,12 +1,11 @@
-Here's a revised version of your README with improvements for structure, clarity, and professionalism:
-
 # Kilangi — Timeless Jewellery
 
 A modern, elegant e-commerce website for premium gold and silver jewellery collections. Features responsive mobile-first design with interactive elements and smooth user experience.
 
 **By:** Stephanie Njonjo  
 **Live Demo:** [Link to be added]  
-**GitHub Repository:** [Link to be added]
+**GitHub Repository:** https://github.com/Stephanieest/kilangi-mobile-website
+   ```
 
 ## Table of Contents
 - [Overview](#overview)
@@ -159,9 +158,8 @@ The above copyright notice and this permission notice shall be included in all c
 ## Contact
 
 **Stephanie Njonjo**  
-Email: [stephnjonjo@gmail.com](mailto:stephnjonjo@gmail.com)  
-Project Link: [GitHub Repository URL to be added]
-
+Email: stephnjonjo@gmail.com 
+Project Link:https://github.com/Stephanieest/kilangi-mobile-website
 ---
 
 **Made with ❤️ for jewellery lovers worldwide**
