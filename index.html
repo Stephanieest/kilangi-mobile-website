@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kilangi — Timeless Jewellery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="announcement">Step into Sparkle – Pure Gold & Silver Await</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="logo" href="/">
+        <img src="logo.png" alt="Kilangi Logo" class="logo-img">
+      </a>
+      
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Wishlist">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </button>
+        <button class="icon-btn" aria-label="Cart">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="search-mobile">
+      <div class="container">
+        <form class="search">
+          <input type="search" placeholder="Search for Earrings.." />
+          <button type="submit" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Category Pills -->
+    <div class="category-pills-wrapper">
+      <div class="container">
+        <div class="category-pills">
+          <button class="category-pill">
+            <img src="https://i.pinimg.com/236x/3b/a2/90/3ba2901dab00c061a3a0e9b566c99c14.jpg" alt="" class="pill-icon">
+            <span>Bestsellers</span>
+          </button>
+          <button class="category-pill">
+            <img src="https://i.pinimg.com/236x/44/94/7a/44947a3642d8174f88e990deb4ec27b5.jpg" alt="" class="pill-icon">
+            <span>Earrings</span>
+          </button>
+          <button class="category-pill">
+            <img src="https://i.pinimg.com/236x/3b/a2/90/3ba2901dab00c061a3a0e9b566c99c14.jpg" alt="" class="pill-icon">
+            <span>Rings</span>
+          </button>
+          <button class="category-pill">
+            <img src="https://i.pinimg.com/236x/44/94/7a/44947a3642d8174f88e990deb4ec27b5.jpg" alt="" class="pill-icon">
+            <span>Earrings</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-image" style="background-image: url('https://i.pinimg.com/736x/62/39/16/623916e24b839673711bd3569763ac88.jpg');">
+          <div class="hero-overlay">
+            <p class="eyebrow">Because You Deserve to</p>
+            <h1>Feel <span class="em">Timeless.</span></h1>
+            <p class="lead">Each piece is thoughtfully designed to celebrate your individuality — blending modern elegance with lasting craftsmanship.</p>
+            <a class="btn-cta" href="#">
+              Explore the Elegance
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="container features-grid">
+        <div class="feature">
+          <span class="feature-icon">✦</span>
+          <span>Timeless Design</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">✦</span>
+          <span>Lightweight Comfort</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">✦</span>
+          <span>Anti-Fade Polish</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">✦</span>
+          <span>Modern Minimal</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bestsellers -->
+    <section class="bestsellers">
+      <div class="container">
+        <header class="bestsellers-header">
+          <h2>Explore Our <span class="headline-em">Timeless<br>Bestseller</span></h2>
+          <nav class="filters">
+            <button class="pill active">Rings</button>
+            <button class="pill">Earrings</button>
+            <button class="pill">Pendants</button>
+            <button class="pill">Bracelets</button>
+            <button class="pill">Bangles</button>
+          </nav>
+        </header>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <a href="#" class="product-media">
+              <img src="https://i.pinimg.com/1200x/77/56/7e/77567e4830077d32dced2d50a6d16954.jpg" alt="Twisted Petal Gold Bracelet" />
+            </a>
+            <div class="product-body">
+              <h3 class="product-title">TWISTED PETAL GOLD BRACELET</h3>
+              <div class="price-row">
+                <span class="price">₹79904</span> 
+                <del class="rrp">₹99904</del>
+              </div>
+              <div class="product-colors">
+                <span class="color-dot color-gold active"></span>
+                <span class="color-dot color-silver"></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <a href="#" class="product-media">
+              <img src="https://i.pinimg.com/1200x/75/23/b9/7523b92535d667025a627f6ca4a7f0c0.jpg" alt="Twisted Petal Gold Bracelet" />
+            </a>
+            <div class="product-body">
+              <h3 class="product-title">TWISTED PETAL GOLD BRACELET</h3>
+              <div class="price-row">
+                <span class="price">₹79904</span> 
+                <del class="rrp">₹99904</del>
+              </div>
+              <div class="product-colors">
+                <span class="color-dot color-gold active"></span>
+                <span class="color-dot color-silver"></span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="bestsellers-cta">
+          <a href="#" class="btn-cta-secondary">
+            Shop Bestsellers
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collection Categories -->
+    <section class="collection">
+      <div class="container">
+        <h2 class="collection-heading">Explore Our <span class="collection-em">Collection</span></h2>
+
+        <ul class="collection-list">
+          <li class="collection-item">
+            <a href="#">
+              <img src="https://i.pinimg.com/736x/3b/a2/90/3ba2901dab00c061a3a0e9b566c99c14.jpg" alt="Rings" />
+              <span class="collection-label">Rings</span>
+            </a>
+          </li>
+
+          <li class="collection-item">
+            <a href="#">
+              <img src="https://i.pinimg.com/1200x/44/94/7a/44947a3642d8174f88e990deb4ec27b5.jpg" alt="Earrings" />
+              <span class="collection-label">Earrings</span>
+            </a>
+          </li>
+
+          <li class="collection-item">
+            <a href="#">
+              <img src="https://i.pinimg.com/736x/09/76/10/0976102e61063ec17ed1dd162b67d94c.jpg" alt="Pendants" />
+              <span class="collection-label">Pendants</span>
+            </a>
+          </li>
+
+          <li class="collection-item">
+            <a href="#">
+              <img src="https://i.pinimg.com/736x/5f/52/fe/5f52fe50a828b803bd8d650c43d85ea8.jpg" alt="Bracelets" />
+              <span class="collection-label">Bracelets</span>
+            </a>
+          </li>
+
+          <li class="collection-item">
+            <a href="#">
+              <img src="https://i.pinimg.com/736x/56/7e/9e/567e9ea70409996c46f8174d5bd0b0d2.jpg" alt="Necklace" />
+              <span class="collection-label">Necklace</span>
+            </a>
+          </li>
+
+          <li class="collection-item">
+            <a href="#">
+              <img src="https://i.pinimg.com/736x/e0/57/dc/e057dcba2aee7f5b82d33f2839f39bf1.jpg" alt="Bangles" />
+              <span class="collection-label">Bangles</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Recently Viewed -->
+    <section class="recently-viewed">
+      <div class="container">
+        <h2 class="recent-heading">Recently Viewed</h2>
+
+        <div class="recent-grid">
+          <article class="recent-card">
+            <a class="recent-media" href="#">
+              <img src="https://i.pinimg.com/736x/0d/1e/47/0d1e47add50c3980e51c24ba430bef11.jpg" alt="Twisted Petal Gold Bracelet" />
+            </a>
+            <div class="recent-body">
+              <h3 class="recent-title">TWISTED PETAL GOLD BRACELET</h3>
+              <div class="recent-price-row">
+                <span class="recent-price">₹79904</span> 
+                <del class="recent-rrp">₹99904</del>
+              </div>
+            </div>
+          </article>
+
+          <article class="recent-card">
+            <a class="recent-media" href="#">
+              <img src="https://i.pinimg.com/736x/a9/6e/81/a96e81201a624d860421f0564e93e3b2.jpg" alt="Twisted Petal Gold Bracelet" />
+            </a>
+            <div class="recent-body">
+              <h3 class="recent-title">TWISTED PETAL GOLD BRACELET</h3>
+              <div class="recent-price-row">
+                <span class="recent-price">₹79904</span> 
+                <del class="recent-rrp">₹99904</del>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gift Notes -->
+    <section class="gift-notes">
+      <div class="container">
+        <h2 class="gift-heading">Make it extra special with<br>personalised gift notes</h2>
+
+        <div class="gift-grid">
+          <div class="gift-card">
+            <a href="#" class="gift-thumb">
+              <img src="https://i.pinimg.com/1200x/b2/d7/70/b2d7706d84f508be7432893ad798ea10.jpg" alt="Shop Under ₹10000" />
+            </a>
+            <a href="#" class="btn-outline">Shop Under ₹10000</a>
+          </div>
+
+          <div class="gift-card">
+            <a href="#" class="gift-thumb">
+              <img src="https://i.pinimg.com/1200x/00/91/a5/0091a5c38cd9e4169cb3e5b9aac3d032.jpg" alt="Shop Under ₹20000" />
+            </a>
+            <a href="#" class="btn-outline">Shop Under ₹20000</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promotional Panels -->
+    <section class="promo-panels">
+      <div class="container">
+        <div class="promo-single">
+          <a class="promo" href="#" style="background-image:url('https://i.pinimg.com/1200x/29/7c/30/297c3084587f9e91c5c038e6f26ffe12.jpg')">
+            <div class="promo-overlay">
+              <h2 class="promo-title">Winter <span class="promo-italic">Love</span> Has Arrived..</h2>
+              <div class="promo-cta-wrap">
+                <span class="btn btn-dark">
+                  Explore New Arrivals
+                  <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gifts for Occasions -->
+    <section class="gifts">
+      <div class="container">
+        <h2 class="gifts-heading">Gifts That <span class="gifts-em">Celebrate</span> Every Moment</h2>
+        <p class="gifts-sub">Varius velit platea quis pellentesque mi et imperdiet. dolor sit amet consectetur.</p>
+
+        <div class="gift-card-grid">
+          <article class="gift-occasion-card">
+            <div class="gift-thumb-wrap">
+              <img src="https://i.pinimg.com/1200x/5b/39/97/5b399728aba0317fa3e689a1e6723414.jpg" alt="Birthday gift" />
+            </div>
+            <div class="gift-content">
+              <h3 class="gift-title">BIRTHDAY</h3>
+              <p class="gift-desc">Celebrate their special day with a timeless piece that shines as bright as they do.</p>
+              <a class="btn-cta small" href="#">
+                Shop Birthday Gifts 
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="gifts-explore-wrap">
+          <a class="btn-cta explore" href="#">
+            Explore More Collection 
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- User Gallery Section -->
+    <section class="user-gallery">
+      <div class="container">
+        <div class="gallery-header">
+          <p class="gallery-intro">Have this item? Show us how you wear it. Tag <strong>@kilangi</strong> and you could be featured right here</p>
+          <div class="gallery-actions">
+            <a href="#" class="btn-outline">Add Your Photo</a>
+            <a href="#" class="btn-outline">View Our Gallery</a>
+          </div>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-placeholder"></div>
+          <div class="gallery-placeholder"></div>
+          <div class="gallery-placeholder"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Ethos -->
+    <section class="ethos">
+      <div class="container">
+        <div class="ethos-grid">
+          <div class="ethos-image">
+            <img src="https://i.pinimg.com/1200x/89/e9/29/89e929177eef5f708bdd1f215eae66b5.jpg" alt="Jewellery closeup" />
+          </div>
+
+          <div class="ethos-content">
+            <p class="eyebrow small">OUR ETHOS</p>
+            <h2 class="ethos-title">Every <span class="italic">Shape</span>. Every <span class="italic">Sparkle</span>.</h2>
+
+            <p class="ethos-lead">Every piece we create is a blend of artistry and awareness handcrafted with precision, guided by purpose.</p>
+
+            <p class="ethos-desc">From ethically sourced materials to sustainable processes, we believe true beauty shines brightest when it's made responsibly.</p>
+
+            <a class="btn-ghost-ethos" href="#">
+              Know More
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Future Section -->
+    <section class="future">
+      <div class="container">
+        <div class="future-grid">
+          <div class="future-content">
+            <h3 class="future-eyebrow">Not Just A Trend.</h3>
+            <h2 class="future-title">It's The <span class="future-italic">Future.</span></h2>
+            <p class="future-lead">Our lab-grown gold and silver jewellery is crafted with the same brilliance and purity as mined metals without the compromise.</p>
+
+            <ul class="future-icons">
+              <li>
+                <div class="icon-wrapper">
+                  <svg class="icon" viewBox="0 0 80 80">
+                    <circle cx="40" cy="40" r="35" fill="#184b47"/>
+                    <text x="50%" y="55%" text-anchor="middle" font-size="16" fill="#fff" font-family="Montserrat" font-weight="700">925</text>
+                    <text x="50%" y="70%" text-anchor="middle" font-size="8" fill="#fff" font-family="Montserrat">Sterling</text>
+                  </svg>
+                </div>
+                <span>925 Sterling Silver</span>
+              </li>
+
+              <li>
+                <div class="icon-wrapper">
+                  <svg class="icon" viewBox="0 0 80 80">
+                    <polygon points="40,15 50,30 40,45 30,30" fill="none" stroke="#184b47" stroke-width="3"/>
+                    <line x1="40" y1="45" x2="40" y2="65" stroke="#184b47" stroke-width="3"/>
+                  </svg>
+                </div>
+                <span>Certified Diamonds</span>
+              </li>
+
+              <li>
+                <div class="icon-wrapper">
+                  <svg class="icon" viewBox="0 0 80 80">
+                    <circle cx="40" cy="40" r="25" fill="none" stroke="#184b47" stroke-width="3"/>
+                    <path d="M 20 40 Q 30 25, 40 40 T 60 40" fill="none" stroke="#184b47" stroke-width="2"/>
+                  </svg>
+                </div>
+                <span>Ethical Sourcing</span>
+              </li>
+
+              <li>
+                <div class="icon-wrapper">
+                  <svg class="icon" viewBox="0 0 80 80">
+                    <path d="M 25 55 L 25 35 Q 25 25, 35 25 L 45 25 Q 55 25, 55 35 L 55 55 Q 55 65, 45 65 L 35 65 Q 25 65, 25 55 Z" fill="none" stroke="#184b47" stroke-width="3"/>
+                  </svg>
+                </div>
+                <span>BIS Hallmark</span>
+              </li>
+
+              <li>
+                <div class="icon-wrapper">
+                  <svg class="icon" viewBox="0 0 80 80">
+                    <circle cx="40" cy="40" r="20" fill="none" stroke="#184b47" stroke-width="3"/>
+                    <path d="M 32 40 L 32 48 M 48 40 L 48 32" stroke="#184b47" stroke-width="3"/>
+                  </svg>
+                </div>
+                <span>Customisable Designs</span>
+              </li>
+
+              <li>
+                <div class="icon-wrapper">
+                  <svg class="icon" viewBox="0 0 80 80">
+                    <rect x="20" y="25" width="40" height="30" rx="3" fill="none" stroke="#184b47" stroke-width="3"/>
+                    <path d="M 28 40 L 35 47 L 52 30" stroke="#184b47" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <span>Free 15 Days<br>Return & Exchange</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="future-image">
+            <img src="https://i.pinimg.com/736x/47/80/37/47803740926283418b381c0fbe0fc73e.jpg" alt="lab diamonds" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="test-heading">Voices of Our <span class="test-em">Happy<br>Customer</span></h2>
+        <p class="test-sub">Every piece we create carries a story but nothing shines brighter than the words of those who wear them.</p>
+
+        <div class="test-grid">
+          <article class="test-card">
+            <div class="test-thumb">
+              <img src="https://i.pinimg.com/1200x/d5/b5/c4/d5b5c434395b50c46bec9bcad6f1be13.jpg" alt="customer image 1">
+            </div>
+            <div class="test-content">
+              <div class="test-stars">★★★★★</div>
+              <blockquote class="test-quote">"So pretty!"</blockquote>
+              <p class="test-body">I recently ordered the 'Golden Radiance Hoops' from Kilangi, and I'm absolutely in love! The craftsmanship is stunning, and the shine is just perfect.</p>
+              <div class="test-author">~ Harshad Mehta</div>
+            </div>
+          </article>
+        </div>
+
+        <div class="test-cta-wrap">
+          <a class="btn-cta review" href="#">
+            Read More Reviews
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="fact-grid">
+          <div class="fact">
+            <span class="fact-circle"></span>
+            <p class="fact-caption">aliquam nunc<br>pellentesque urna.</p>
+          </div>
+          <div class="fact">
+            <span class="fact-circle"></span>
+            <p class="fact-caption">aliquam nunc<br>pellentesque urna.</p>
+          </div>
+          <div class="fact">
+            <span class="fact-circle"></span>
+            <p class="fact-caption">aliquam nunc<br>pellentesque urna.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer-extended">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo-wrapper">
+            <img src="footerlogo.png" alt="Kilangi Logo" class="footer-logo-img">
+          </div>
+
+          <div class="footer-desc">
+            <p class="footer-name">Kilangi Jewellery is a premium brand specializing in exquisite silver and gold jewellery.</p> 
+            
+            <p class="footer-paragraph">Known for its timeless elegance and fine craftsmanship, Kilangi offers a curated collection of traditional and contemporary designs perfect for every occasion.</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>OUR COLLECTION</h4>
+            <ul>
+              <li><a href="#">Rings</a></li>
+              <li><a href="#">Earrings</a></li>
+              <li><a href="#">Pendants</a></li>
+              <li><a href="#">Bracelets</a></li>
+              <li><a href="#">Necklaces</a></li>
+              <li><a href="#">Bangles</a></li>
+              <li><a href="#">Accessories</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>QUICK LINKS</h4>
+            <ul>
+              <li><a href="#">All Jewellery</a></li>
+              <li><a href="#">Gold</a></li>
+              <li><a href="#">Silver</a></li>
+              <li><a href="#">Gifting</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>POLICIES</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Refund Policy</a></li>
+              <li><a href="#">Shipping Policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">FAQ's Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="copyright-pill">© <span id="footer-year"></span> / Kilangi</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
